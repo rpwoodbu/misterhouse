@@ -1,0 +1,83 @@
+
+# Category = Time
+
+#@ Auto-generated from Organizer
+
+if ($New_Minute) {
+   if (time_now '10/2/2001  8 am') {speak ('app=organizer Calendar notice.  Today: Test Event.'); display ('app=organizer Calendar notice.  Today: Test Event.');};
+   if (time_now '10/2/2001  12 pm') {speak ('app=organizer Calendar notice.  Today: Test Event.'); display ('app=organizer Calendar notice.  Today: Test Event.');};
+   if (time_now '10/2/2001  7 pm') {speak ('app=organizer Calendar notice.  Today: Test Event.'); display ('app=organizer Calendar notice.  Today: Test Event.');};
+   if (time_now '10/1/2001  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: Test Event.'); display ('app=organizer Calendar notice.  Tomorrow: Test Event.');};
+   if (time_now '3/16/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/16/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/16/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/15/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test.'); display ('app=organizer Calendar notice.  Tomorrow: test.');};
+   if (time_now '3/19/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/19/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/19/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/18/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test.'); display ('app=organizer Calendar notice.  Tomorrow: test.');};
+   if (time_now '3/29/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/29/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/29/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '3/28/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test.'); display ('app=organizer Calendar notice.  Tomorrow: test.');};
+   if (time_now '3/29/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test 2.'); display ('app=organizer Calendar notice.  Today: test 2.');};
+   if (time_now '3/29/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test 2.'); display ('app=organizer Calendar notice.  Today: test 2.');};
+   if (time_now '3/29/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test 2.'); display ('app=organizer Calendar notice.  Today: test 2.');};
+   if (time_now '3/28/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test 2.'); display ('app=organizer Calendar notice.  Tomorrow: test 2.');};
+   if (time_now '4/20/2002  8 am') {speak ('app=organizer Calendar notice.  Today: Look at the stars.'); display ('app=organizer Calendar notice.  Today: Look at the stars.');};
+   if (time_now '4/20/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: Look at the stars.'); display ('app=organizer Calendar notice.  Today: Look at the stars.');};
+   if (time_now '4/20/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: Look at the stars.'); display ('app=organizer Calendar notice.  Today: Look at the stars.');};
+   if (time_now '4/19/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: Look at the stars.'); display ('app=organizer Calendar notice.  Tomorrow: Look at the stars.');};
+   if (time_now '5/6/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test it\'s now "time".'); display ('app=organizer Calendar notice.  Today: test it\'s now "time".');};
+   if (time_now '5/6/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test it\'s now "time".'); display ('app=organizer Calendar notice.  Today: test it\'s now "time".');};
+   if (time_now '5/6/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test it\'s now "time".'); display ('app=organizer Calendar notice.  Today: test it\'s now "time".');};
+   if (time_now '5/5/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test it\'s now "time".'); display ('app=organizer Calendar notice.  Tomorrow: test it\'s now "time".');};
+   if (time_now '5/6/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test hi there.'); display ('app=organizer Calendar notice.  Today: test hi there.');};
+   if (time_now '5/6/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test hi there.'); display ('app=organizer Calendar notice.  Today: test hi there.');};
+   if (time_now '5/6/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test hi there.'); display ('app=organizer Calendar notice.  Today: test hi there.');};
+   if (time_now '5/5/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test hi there.'); display ('app=organizer Calendar notice.  Tomorrow: test hi there.');};
+   if (time_now '6/2/2002  8 am') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/2/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/2/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/1/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: David\'s Open House.'); display ('app=organizer Calendar notice.  Tomorrow: David\'s Open House.');};
+   if (time_now '6/2/2002  8 am') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/2/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/2/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/1/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: David\'s Open House.'); display ('app=organizer Calendar notice.  Tomorrow: David\'s Open House.');};
+   if (time_now '6/2/2002  8 am') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/2/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/2/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: David\'s Open House.'); display ('app=organizer Calendar notice.  Today: David\'s Open House.');};
+   if (time_now '6/1/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: David\'s Open House.'); display ('app=organizer Calendar notice.  Tomorrow: David\'s Open House.');};
+   if (time_now '6/6/2002  8 am') {speak ('app=organizer Calendar notice.  Today: Pay Estimated Tax.'); display ('app=organizer Calendar notice.  Today: Pay Estimated Tax.');};
+   if (time_now '6/6/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: Pay Estimated Tax.'); display ('app=organizer Calendar notice.  Today: Pay Estimated Tax.');};
+   if (time_now '6/6/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: Pay Estimated Tax.'); display ('app=organizer Calendar notice.  Today: Pay Estimated Tax.');};
+   if (time_now '6/5/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: Pay Estimated Tax.'); display ('app=organizer Calendar notice.  Tomorrow: Pay Estimated Tax.');};
+   if (time_now '6/4/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '6/4/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '6/4/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test.'); display ('app=organizer Calendar notice.  Today: test.');};
+   if (time_now '6/3/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test.'); display ('app=organizer Calendar notice.  Tomorrow: test.');};
+   if (time_now '6/8/2002  8 am') {speak ('app=organizer Calendar notice.  Today: Seep in.'); display ('app=organizer Calendar notice.  Today: Seep in.');};
+   if (time_now '6/8/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: Seep in.'); display ('app=organizer Calendar notice.  Today: Seep in.');};
+   if (time_now '6/8/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: Seep in.'); display ('app=organizer Calendar notice.  Today: Seep in.');};
+   if (time_now '6/7/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: Seep in.'); display ('app=organizer Calendar notice.  Tomorrow: Seep in.');};
+   if (time_now '6/6/2002  8 am') {speak ('app=organizer Calendar notice.  Today: Mow the lawn.'); display ('app=organizer Calendar notice.  Today: Mow the lawn.');};
+   if (time_now '6/6/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: Mow the lawn.'); display ('app=organizer Calendar notice.  Today: Mow the lawn.');};
+   if (time_now '6/6/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: Mow the lawn.'); display ('app=organizer Calendar notice.  Today: Mow the lawn.');};
+   if (time_now '6/5/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: Mow the lawn.'); display ('app=organizer Calendar notice.  Tomorrow: Mow the lawn.');};
+   if (time_now '6/30/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test again.'); display ('app=organizer Calendar notice.  Today: test again.');};
+   if (time_now '6/30/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test again.'); display ('app=organizer Calendar notice.  Today: test again.');};
+   if (time_now '6/30/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test again.'); display ('app=organizer Calendar notice.  Today: test again.');};
+   if (time_now '6/29/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test again.'); display ('app=organizer Calendar notice.  Tomorrow: test again.');};
+   if (time_now '10/12/2002  8 am') {speak ('app=organizer Calendar notice.  Today: .'); display ('app=organizer Calendar notice.  Today: .');};
+   if (time_now '10/12/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: .'); display ('app=organizer Calendar notice.  Today: .');};
+   if (time_now '10/12/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: .'); display ('app=organizer Calendar notice.  Today: .');};
+   if (time_now '10/11/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: .'); display ('app=organizer Calendar notice.  Tomorrow: .');};
+   if (time_now '10/12/2002  8 am') {speak ('app=organizer Calendar notice.  Today: test2.'); display ('app=organizer Calendar notice.  Today: test2.');};
+   if (time_now '10/12/2002  12 pm') {speak ('app=organizer Calendar notice.  Today: test2.'); display ('app=organizer Calendar notice.  Today: test2.');};
+   if (time_now '10/12/2002  7 pm') {speak ('app=organizer Calendar notice.  Today: test2.'); display ('app=organizer Calendar notice.  Today: test2.');};
+   if (time_now '10/11/2002  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: test2.'); display ('app=organizer Calendar notice.  Tomorrow: test2.');};
+   if (time_now '1/18/2005  8 am') {speak ('app=organizer Calendar notice.  Today: Chris radio show.'); display ('app=organizer Calendar notice.  Today: Chris radio show.');};
+   if (time_now '1/18/2005  12 pm') {speak ('app=organizer Calendar notice.  Today: Chris radio show.'); display ('app=organizer Calendar notice.  Today: Chris radio show.');};
+   if (time_now '1/18/2005  7 pm') {speak ('app=organizer Calendar notice.  Today: Chris radio show.'); display ('app=organizer Calendar notice.  Today: Chris radio show.');};
+   if (time_now '1/17/2005  7 pm') {speak ('app=organizer Calendar notice.  Tomorrow: Chris radio show.'); display ('app=organizer Calendar notice.  Tomorrow: Chris radio show.');};
+}
