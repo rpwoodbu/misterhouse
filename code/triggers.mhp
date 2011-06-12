@@ -6,12 +6,12 @@
 
 # name=Morning comfort type=NoExpire
 if ((time_cron '00 08 * * 1-5') and &trigger_active('Morning comfort')) {
-    # FYI trigger code: run_voice_cmd 'Living ac on';
+    # FYI trigger code: conditional($living_ac, "on", 43200);
     &trigger_run('Morning comfort',1);
 }
 
 # name=Rescan type=NoExpire
-if ((time_cron '0,15,30,45 * * * *') and &trigger_active('Rescan')) {
+if ((time_cron '0 * * * *') and &trigger_active('Rescan')) {
     # FYI trigger code: run_voice_cmd 'AllDevices Scan';
     &trigger_run('Rescan',1);
 }
