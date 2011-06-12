@@ -4,6 +4,18 @@
 #@ This file will be recreated when Misterhouse is next started.
 #
 
+# name=Check AC type=NoExpire
+if ((time_cron '0 12-17 * * 1-5') and &trigger_active('Check AC')) {
+    # FYI trigger code: email_if_not_state($bedroom_ac, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_ac, "off", 'rpwoodbu@mybox.org');
+    &trigger_run('Check AC',1);
+}
+
+# name=Check lights type=NoExpire
+if ((time_cron '0 8-17 * * *') and &trigger_active('Check lights')) {
+    # FYI trigger code: email_if_not_state($lavalamp, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_room, "off", 'rpwoodbu@mybox.org'); email_if_not_state($bedroom, "off", 'rpwoodbu@mybox.org');
+    &trigger_run('Check lights',1);
+}
+
 # name=Morning comfort type=NoExpire
 if ((time_cron '00 08 * * *') and &trigger_active('Morning comfort')) {
     # FYI trigger code: conditional($living_ac, "on", 43200);
