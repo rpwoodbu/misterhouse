@@ -8,13 +8,15 @@ sub email_if_not_state
     my ($device, $state, $email) = @_;
     my $devname = $device->{object_name};
 
-    if ($device->state != $state) {
+    print_log "email_if_not_state: Checking if $devname, which is " . $device->state .", is $state.";
+
+    if ($device->state ne $state) {
         print_log "email_if_not_state: $devname is not $state; emailing $email.";
 
         my $sendmail = "/usr/sbin/sendmail -t";
         my $reply_to = "Reply-to: nobody\@mybox.org\n";
         my $subject  = "Subject: Misterhouse: $devname not $state.\n";
-        my $content  = "Device $devname is not in the expected state ($state).\n";
+        my $content  = "Device $devname is " . $device->state .", but is expected to be $state.\n";
         my $send_to  = "To: $email\n";
 
         if (open(SENDMAIL, "|$sendmail")) {
