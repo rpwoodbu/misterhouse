@@ -51,14 +51,14 @@ SCENE_MEMBER, foyer_D, foyer_D_scene
 #
 
 # Keypadlinc (foyer)
-SCENE_MEMBER, living_room, foyer_A, 60%, 2s
+SCENE_MEMBER, living_room, foyer_A, 100%, 2s
 SCENE_MEMBER, foyer, foyer_A, 0%, 8s
 SCENE_MEMBER, bedroom, foyer_B, 25%, 2s
 SCENE_MEMBER, living_ac, foyer_C, 100%, 2s
 SCENE_MEMBER, bedroom_ac, foyer_D, 100%, 2s
 
 # Remotelink
-SCENE_MEMBER, living_room, remote_A, 60%, 8s
+SCENE_MEMBER, living_room, remote_A, 100%, 8s
 SCENE_MEMBER, foyer, remote_A, 0%, 8s
 SCENE_MEMBER, bedroom, remote_B, 25%, 2s
 SCENE_MEMBER, lavalamp, remote_C, 100%, 2s
@@ -67,7 +67,7 @@ SCENE_MEMBER, living_ac, remote_E, 100%, 2s
 SCENE_MEMBER, bedroom_ac, remote_F, 100%, 2s
 
 # Controllink (bedside)
-SCENE_MEMBER, living_room, bedside_A, 60%, 2s
+SCENE_MEMBER, living_room, bedside_A, 100%, 2s
 SCENE_MEMBER, foyer, bedside_A, 0%, 8s
 SCENE_MEMBER, bedroom, bedside_B, 0%, 8s
 SCENE_MEMBER, lavalamp, bedside_B, 100%, 8s
