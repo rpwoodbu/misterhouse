@@ -11,7 +11,7 @@ if ((time_cron '0 12-17 * * 1-5') and &trigger_active('Check AC')) {
 }
 
 # name=Check lights type=NoExpire
-if ((time_cron '0 8-17 * * *') and &trigger_active('Check lights')) {
+if ((time_cron '0 8-16 * * *') and &trigger_active('Check lights')) {
     # FYI trigger code: email_if_not_state($lavalamp, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_room, "off", 'rpwoodbu@mybox.org'); email_if_not_state($bedroom, "off", 'rpwoodbu@mybox.org');
     &trigger_run('Check lights',1);
 }
@@ -28,15 +28,15 @@ if ((time_cron '0 * * * *') and &trigger_active('Rescan')) {
     &trigger_run('Rescan',1);
 }
 
-# name=Tree Off type=Disabled
-if ((time_cron '30 0 * * *') and &trigger_active('Tree Off')) {
-    # FYI trigger code: run_voice_cmd 'Tree Off';
+# name=Tree Off type=NoExpire
+if ((time_cron '00 1 * * *') and &trigger_active('Tree Off')) {
+    # FYI trigger code: run_voice_cmd 'Spare Off';
     &trigger_run('Tree Off',1);
 }
 
-# name=Tree On type=Disabled
-if ((time_cron '30 17 * * *') and &trigger_active('Tree On')) {
-    # FYI trigger code: run_voice_cmd 'Tree On';
+# name=Tree On type=NoExpire
+if ((time_cron '00 17 * * *') and &trigger_active('Tree On')) {
+    # FYI trigger code: run_voice_cmd 'Spare On';
     &trigger_run('Tree On',1);
 }
 
