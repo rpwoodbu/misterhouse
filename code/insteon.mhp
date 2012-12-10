@@ -109,13 +109,13 @@ $foyer_D_scene                       -> add($foyer_D);
 # The pairings
 #
 # Keypadlinc (foyer)
-$foyer_A                             -> add($living_room,'60%','2s');
+$foyer_A                             -> add($living_room,'100%','2s');
 $foyer_A                             -> add($foyer,'0%','8s');
 $foyer_B                             -> add($bedroom,'25%','2s');
 $foyer_C                             -> add($living_ac,'100%','2s');
 $foyer_D                             -> add($bedroom_ac,'100%','2s');
 # Remotelink
-$remote_A                            -> add($living_room,'60%','8s');
+$remote_A                            -> add($living_room,'100%','8s');
 $remote_A                            -> add($foyer,'0%','8s');
 $remote_B                            -> add($bedroom,'25%','2s');
 $remote_C                            -> add($lavalamp,'100%','2s');
@@ -123,7 +123,7 @@ $remote_D                            -> add($foyer,'100%','0.5s');
 $remote_E                            -> add($living_ac,'100%','2s');
 $remote_F                            -> add($bedroom_ac,'100%','2s');
 # Controllink (bedside)
-$bedside_A                           -> add($living_room,'60%','2s');
+$bedside_A                           -> add($living_room,'100%','2s');
 $bedside_A                           -> add($foyer,'0%','8s');
 $bedside_B                           -> add($bedroom,'0%','8s');
 $bedside_B                           -> add($lavalamp,'100%','8s');
