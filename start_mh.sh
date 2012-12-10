@@ -7,4 +7,4 @@ OPTS="-tk 0"
 
 export mh_parms="${MH}/mh.private.ini"
 cd "${MH}/mh/bin"
-./mhl $OPTS
+tmux new-session -s misterhouse "./mhl $OPTS"
