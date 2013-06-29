@@ -119,6 +119,8 @@ $remote_A                            -> add($living_room,'100%','8s');
 $remote_A                            -> add($foyer,'0%','8s');
 $remote_B                            -> add($bedroom,'25%','2s');
 $remote_C                            -> add($lavalamp,'100%','2s');
+# Temporary tree control
+# SCENE_MEMBER, spare, remote_C, 100%, 2s
 $remote_D                            -> add($foyer,'100%','0.5s');
 $remote_E                            -> add($living_ac,'100%','2s');
 $remote_F                            -> add($bedroom_ac,'100%','2s');
