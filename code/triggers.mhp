@@ -24,7 +24,7 @@ if ((time_cron '00 08 * * *') and &trigger_active('Morning comfort')) {
 
 # name=Phantom type=NoExpire
 if ((time_cron '10 * * * *') and &trigger_active('Phantom')) {
-    # FYI trigger code: foreach my $dev (($living_ac, $bedroom_ac, $bedroom, $foyer)) { email_if_phantom_state($dev, 'rpwoodbu@mybox.org'); };
+    # FYI trigger code: foreach my $dev (($living_ac, $bedroom_ac, $bedroom)) { email_if_phantom_state($dev, 'rpwoodbu@mybox.org'); };
     &trigger_run('Phantom',1);
 }
 
