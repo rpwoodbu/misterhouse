@@ -8,7 +8,7 @@ sub munge_state
 {
   my ($state) = @_;
 
-  if ($state eq "off") {
+  if ($state =~ /off/) {
     return "off";
   }
   return "on";
