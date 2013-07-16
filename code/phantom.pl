@@ -29,8 +29,8 @@ sub email_if_phantom_state
     );
     #print_log "phantom: last: $last_state  --  $last_log";
     #print_log "phantom: $device->{object_name} $time $value $set_by";
-    if ($value eq "set_address_msb") {
-      print_log "email_if_phantom_state: got set_address_msb, skipping";
+    if ($value eq "set_address_msb" or $value eq "assign_to_group") {
+      print_log "email_if_phantom_state: got $value, skipping";
       next;
     }
     if (not $set_by =~ /^\$PLM/) {
