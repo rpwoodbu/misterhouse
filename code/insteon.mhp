@@ -118,7 +118,8 @@ $foyer_D                             -> add($bedroom_ac,'100%','2s');
 $remote_A                            -> add($living_room,'100%','8s');
 $remote_A                            -> add($foyer,'0%','8s');
 $remote_B                            -> add($bedroom,'25%','2s');
-$remote_C                            -> add($lavalamp,'100%','2s');
+# Using this to turn on MythTV server, so no direct link.
+#SCENE_MEMBER, lavalamp, remote_C, 100%, 2s
 # Temporary tree control
 # SCENE_MEMBER, spare, remote_C, 100%, 2s
 $remote_D                            -> add($foyer,'100%','0.5s');
