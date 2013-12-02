@@ -1,0 +1,3 @@
+This directory contains files that need to exist in data/, but since that
+is being kept on /tmp, which is tmpfs, it gets lost on reboots. These files
+will be copied into data/ by start_mh.sh.

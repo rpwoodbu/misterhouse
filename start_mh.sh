@@ -6,6 +6,7 @@ MH="/home/rpwoodbu/code/misterhouse"
 OPTS="-tk 0"
 
 mkdir -p /tmp/mh_data
+ls persistent_data/* | grep -v 'README' | xargs -I FILES cp FILES data/
 export mh_parms="${MH}/mh.private.ini"
 cd "${MH}/mh/bin"
 tmux new-session -d -s misterhouse "./mhl $OPTS"
