@@ -36,11 +36,11 @@ run_voice_cmd 'AllDevices Scan';
 
 name=Tree Off type=NoExpire triggered=0
 time_cron '00 1 * * *'
-run_voice_cmd 'Spare Off';
+$spare->set("off");
 
 name=Tree On type=NoExpire triggered=0
 time_cron '00 17 * * *'
-run_voice_cmd 'Spare On';
+$spare->set("on");
 
 name=get MH version type=NoExpire triggered=1379628000
 time_cron '0 18 * * *' and net_connect_check
