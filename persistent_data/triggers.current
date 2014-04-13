@@ -14,11 +14,11 @@
 # Expired triggers will be pruned to triggers.expired a week after they expire.
 #
 
-name=Check AC type=NoExpire triggered=1379710800
+name=Check AC type=Disabled triggered=0
 time_cron '0 12-17 * * 1-5'
 email_if_not_state($bedroom_ac, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_ac, "off", 'rpwoodbu@mybox.org');
 
-name=Check lights type=NoExpire triggered=1379707200
+name=Check lights type=Disabled triggered=0
 time_cron '0 8-16 * * *'
 email_if_not_state($lavalamp, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_room, "off", 'rpwoodbu@mybox.org'); email_if_not_state($bedroom, "off", 'rpwoodbu@mybox.org');
 
