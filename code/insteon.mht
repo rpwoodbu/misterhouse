@@ -1,6 +1,8 @@
 Format = A
 # -*- mode: perl-mode; -*-
 
+# noloop=start
+
 # My Insteon PLM Interface
 INSTEON_PLM,    PLM
 
@@ -77,3 +79,5 @@ SCENE_MEMBER, lavalamp, bedside_B, 100%, 8s
 SCENE_MEMBER, fan, bedside_C, 100%, 2s
 SCENE_MEMBER, living_ac, bedside_D, 100%, 2s
 SCENE_MEMBER, bedroom_ac, bedside_E, 100%, 2s
+
+# noloop=stop
