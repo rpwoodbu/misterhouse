@@ -8,38 +8,38 @@ INSTEON_PLM,    PLM
 # The devices
 #
 
-IPLD,   12.A9.10,       lavalamp,   All_Lights,         PLM
-IPLD,   12.AF.8D,       spare,      Appliances,         PLM
-IPLL,   13.BE.31:01,    bedroom,    All_Lights,         PLM
-IPLD,   14.32.7B,       living_ac,  Appliances,         PLM
-IPLD,   14.02.7B,       bedroom_ac, Appliances,         PLM
-IPLD,   18.69.9A,       living_room,All_Lights,         PLM
-IPLL,   12.BF.B6:01,    foyer,      All_Lights|buttons, PLM
-IPLL,   12.BF.B6:03,    foyer_A,    buttons,            PLM
-IPLL,   12.BF.B6:04,    foyer_B,    buttons,            PLM
-IPLL,   12.BF.B6:05,    foyer_C,    buttons,            PLM
-IPLL,   12.BF.B6:06,    foyer_D,    buttons,            PLM
-IPLL,   13.EA.41:01,    remote_A,   buttons,            PLM
-IPLL,   13.EA.41:02,    remote_B,   buttons,            PLM
-IPLL,   13.EA.41:03,    remote_C,   buttons,            PLM
-IPLL,   13.EA.41:04,    remote_D,   buttons,            PLM
-IPLL,   13.EA.41:05,    remote_E,   buttons,            PLM
-IPLL,   13.EA.41:06,    remote_F,   buttons,            PLM
-IPLL,   09.4B.3C:01,    bedside_A,  buttons,            PLM
-IPLL,   09.4B.3C:02,    bedside_B,  buttons,            PLM
-IPLL,   09.4B.3C:03,    bedside_C,  buttons,            PLM
-IPLL,   09.4B.3C:04,    bedside_D,  buttons,            PLM
-IPLL,   09.4B.3C:05,    bedside_E,  buttons,            PLM
+INSTEON_LAMPLINC,      12.A9.10,       lavalamp,   All_Lights
+INSTEON_LAMPLINC,      12.AF.8D,       spare,      Appliances
+INSTEON_SWITCHLINC,    13.BE.31:01,    bedroom,    All_Lights
+INSTEON_APPLIANCELINC, 14.32.7B,       living_ac,  Appliances
+INSTEON_APPLIANCELINC, 14.02.7B,       bedroom_ac, Appliances
+INSTEON_LAMPLINC,      18.69.9A,       living_room,All_Lights
+INSTEON_KEYPADLINC,    12.BF.B6:01,    foyer,      All_Lights|buttons
+INSTEON_KEYPADLINC,    12.BF.B6:03,    foyer_A,    buttons
+INSTEON_KEYPADLINC,    12.BF.B6:04,    foyer_B,    buttons
+INSTEON_KEYPADLINC,    12.BF.B6:05,    foyer_C,    buttons
+INSTEON_KEYPADLINC,    12.BF.B6:06,    foyer_D,    buttons
+INSTEON_REMOTELINC,    13.EA.41:01,    remote_A,   buttons
+INSTEON_REMOTELINC,    13.EA.41:02,    remote_B,   buttons
+INSTEON_REMOTELINC,    13.EA.41:03,    remote_C,   buttons
+INSTEON_REMOTELINC,    13.EA.41:04,    remote_D,   buttons
+INSTEON_REMOTELINC,    13.EA.41:05,    remote_E,   buttons
+INSTEON_REMOTELINC,    13.EA.41:06,    remote_F,   buttons
+INSTEON_REMOTELINC,    09.4B.3C:01,    bedside_A,  buttons
+INSTEON_REMOTELINC,    09.4B.3C:02,    bedside_B,  buttons
+INSTEON_REMOTELINC,    09.4B.3C:03,    bedside_C,  buttons
+INSTEON_REMOTELINC,    09.4B.3C:04,    bedside_D,  buttons
+INSTEON_REMOTELINC,    09.4B.3C:05,    bedside_E,  buttons
 
-X10A,   C1,             fan,        Appliances,         PLM
+X10A,                  C1,             fan,        Appliances, PLM
 
 #
 # Keypadlinc scenes
 #
-IPLL, plm:10, foyer_A_scene, scenes, PLM
-IPLL, plm:11, foyer_B_scene, scenes, PLM
-IPLL, plm:12, foyer_C_scene, scenes, PLM
-IPLL, plm:13, foyer_D_scene, scenes, PLM
+INSTEON_ICONTROLLER, plm:10, foyer_A_scene, scenes
+INSTEON_ICONTROLLER, plm:11, foyer_B_scene, scenes
+INSTEON_ICONTROLLER, plm:12, foyer_C_scene, scenes
+INSTEON_ICONTROLLER, plm:13, foyer_D_scene, scenes
 
 SCENE_MEMBER, foyer_A, foyer_A_scene
 SCENE_MEMBER, foyer_B, foyer_B_scene
