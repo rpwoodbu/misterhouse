@@ -13,5 +13,10 @@ sub do_mythtv
         my ($cmd) = "/bin/echo -ne \"p 0 1\\nas\\nq\\n\" | /usr/local/bin/cec-client";
         print_log $cmd;
         system($cmd);
+    } else {
+        print_log "do_mythtv: Sending CEC (standby) to TV";
+        my ($cmd) = "/bin/echo 'standby 0' | /usr/local/bin/cec-client -s";
+        print_log $cmd;
+        system($cmd);
     }
 }
