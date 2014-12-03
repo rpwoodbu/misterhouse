@@ -34,11 +34,11 @@ name=Rescan type=NoExpire triggered=1379757600
 time_cron '0 * * * *'
 run_voice_cmd 'AllDevices Scan';
 
-name=Tree Off type=Disabled triggered=0
+name=Tree Off type=NoExpire triggered=0
 time_cron '00 1 * * *'
 $spare->set("off");
 
-name=Tree On type=Disabled triggered=0
+name=Tree On type=NoExpire triggered=0
 time_cron '00 17 * * *'
 $spare->set("on");
 
