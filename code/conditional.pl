@@ -7,7 +7,6 @@
 # The devices to check for activity.
 my @devices = (
   $living_room,
-  $foyer,
   $bedroom,
   $lavalamp
 );
