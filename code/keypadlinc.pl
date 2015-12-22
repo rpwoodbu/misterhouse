@@ -2,8 +2,6 @@
 
 $living_room->tie_event('sync_kpl_lights($living_room, $foyer_A_scene)'); # noloop
 $bedroom->tie_event('sync_kpl_lights($bedroom, $foyer_B_scene)'); # noloop
-$living_ac->tie_event('sync_kpl_lights($living_ac, $foyer_C_scene)'); # noloop
-$bedroom_ac->tie_event('sync_kpl_lights($bedroom_ac, $foyer_D_scene)'); # noloop
  
 # this will get called every time a switch is toggled locally, or every
 # time you run get_status or on receipt of remote activations

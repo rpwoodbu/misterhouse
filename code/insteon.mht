@@ -13,8 +13,6 @@ INSTEON_PLM,    PLM
 INSTEON_LAMPLINC,      12.A9.10,       lavalamp,   All_Lights
 INSTEON_LAMPLINC,      12.AF.8D,       spare,      Appliances
 INSTEON_SWITCHLINC,    13.BE.31:01,    bedroom,    All_Lights
-INSTEON_APPLIANCELINC, 14.32.7B,       living_ac,  Appliances
-INSTEON_APPLIANCELINC, 14.02.7B,       bedroom_ac, Appliances
 INSTEON_LAMPLINC,      18.69.9A,       living_room,All_Lights
 INSTEON_KEYPADLINC,    12.BF.B6:01,    foyer,      All_Lights|buttons
 INSTEON_KEYPADLINC,    12.BF.B6:03,    foyer_A,    buttons
@@ -56,8 +54,6 @@ SCENE_MEMBER, foyer_D, foyer_D_scene
 SCENE_MEMBER, living_room, foyer_A, 100%, 2s
 SCENE_MEMBER, foyer, foyer_A, 0%, 8s
 SCENE_MEMBER, bedroom, foyer_B, 25%, 2s
-SCENE_MEMBER, living_ac, foyer_C, 100%, 2s
-SCENE_MEMBER, bedroom_ac, foyer_D, 100%, 2s
 
 # Remotelink
 SCENE_MEMBER, living_room, remote_A, 100%, 8s
@@ -68,8 +64,6 @@ SCENE_MEMBER, bedroom, remote_B, 25%, 2s
 # Temporary tree control
 # SCENE_MEMBER, spare, remote_C, 100%, 2s
 SCENE_MEMBER, foyer, remote_D, 100%, 0.5s
-SCENE_MEMBER, living_ac, remote_E, 100%, 2s
-SCENE_MEMBER, bedroom_ac, remote_F, 100%, 2s
 
 # Controllink (bedside)
 SCENE_MEMBER, living_room, bedside_A, 100%, 2s
@@ -77,7 +71,5 @@ SCENE_MEMBER, foyer, bedside_A, 0%, 8s
 SCENE_MEMBER, bedroom, bedside_B, 0%, 8s
 SCENE_MEMBER, lavalamp, bedside_B, 100%, 8s
 SCENE_MEMBER, fan, bedside_C, 100%, 2s
-SCENE_MEMBER, living_ac, bedside_D, 100%, 2s
-SCENE_MEMBER, bedroom_ac, bedside_E, 100%, 2s
 
 # noloop=stop

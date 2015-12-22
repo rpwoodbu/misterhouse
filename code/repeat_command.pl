@@ -1,6 +1,7 @@
 # This repeats commands as necessary to work around signal issues.
 
-$bedroom_ac->tie_event('repeat_command($bedroom_ac)');
+# Example:
+# $bedroom_ac->tie_event('repeat_command($bedroom_ac)');
  
 # this will get called every time a switch is toggled locally, or every
 # time you run get_status or on receipt of remote activations
