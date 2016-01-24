@@ -13,17 +13,9 @@
 #
 # Expired triggers will be pruned to triggers.expired a week after they expire.
 #
-name=Check AC type=Disabled triggered=1420236000
-time_cron '0 12-17 * * 1-5'
-email_if_not_state($bedroom_ac, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_ac, "off", 'rpwoodbu@mybox.org');
-
 name=Check lights type=NoExpire triggered=1420405200
 time_cron '0 8-16 * * *'
 email_if_not_state($lavalamp, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_room, "off", 'rpwoodbu@mybox.org'); email_if_not_state($bedroom, "off", 'rpwoodbu@mybox.org');
-
-name=Morning comfort type=NoExpire triggered=1420376400
-time_cron '00 08 * * *'
-conditional($living_ac, "on", 43200);
 
 name=Phantom type=NoExpire triggered=1450833249
 time_cron '10 * * * *'
@@ -33,11 +25,11 @@ name=Rescan type=NoExpire triggered=1420416000
 time_cron '0 * * * *'
 run_voice_cmd 'AllDevices Scan';
 
-name=Tree Off type=NoExpire triggered=1420351200
+name=Tree Off type=Disabled triggered=1420351200
 time_cron '00 1 * * *'
 $spare->set("off");
 
-name=Tree On type=NoExpire triggered=1420408800
+name=Tree On type=Disabled triggered=1420408800
 time_cron '00 17 * * *'
 $spare->set("on");
 
