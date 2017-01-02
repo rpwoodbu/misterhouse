@@ -26,7 +26,7 @@ INSTEON_REMOTELINC,    09.4B.3C:03,    bedside_C,  buttons
 INSTEON_REMOTELINC,    09.4B.3C:04,    bedside_D,  buttons
 INSTEON_REMOTELINC,    09.4B.3C:05,    bedside_E,  buttons
 
-X10A,                  C1,             fan,        Appliances, PLM
+INSTEON_APPLIANCELINC, 14.02.7B,       fan, Appliances
 
 #
 # The pairings
