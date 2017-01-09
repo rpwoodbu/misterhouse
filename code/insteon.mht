@@ -10,8 +10,8 @@ INSTEON_PLM,    PLM
 # The devices
 #
 
-INSTEON_LAMPLINC,      12.A9.10,       lavalamp,   All_Lights
-INSTEON_LAMPLINC,      12.AF.8D,       spare,      Appliances
+INSTEON_LAMPLINC,      12.A9.10,       cardinal,   All_Lights
+INSTEON_LAMPLINC,      12.AF.8D,       spare,      All_Lights
 INSTEON_SWITCHLINC,    13.BE.31:01,    bedroom,    All_Lights
 INSTEON_LAMPLINC,      18.69.9A,       living_room,All_Lights
 INSTEON_REMOTELINC,    13.EA.41:01,    remote_A,   buttons
@@ -37,13 +37,13 @@ SCENE_MEMBER, living_room, remote_A, 100%, 8s
 SCENE_MEMBER, bedroom, remote_B, 25%, 2s
 # Using this to turn on MythTV server, so no direct link.
 #SCENE_MEMBER, lavalamp, remote_C, 100%, 2s
-# Temporary tree control
-# SCENE_MEMBER, spare, remote_C, 100%, 2s
+#SCENE_MEMBER, tree_white, remote_E, 100%, 8s
+SCENE_MEMBER, cardinal, remote_F, 100%, 8s
 
-# Controllink (bedside)
+# Controlink (bedside)
 SCENE_MEMBER, living_room, bedside_A, 100%, 2s
-SCENE_MEMBER, bedroom, bedside_B, 0%, 8s
-SCENE_MEMBER, lavalamp, bedside_B, 100%, 8s
+SCENE_MEMBER, bedroom, bedside_B, 25%, 2s
+#SCENE_MEMBER, lavalamp, bedside_B, 100%, 8s
 SCENE_MEMBER, fan, bedside_C, 100%, 2s
 
 # noloop=stop
