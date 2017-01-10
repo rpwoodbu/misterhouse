@@ -11,7 +11,7 @@ INSTEON_PLM,    PLM
 #
 
 INSTEON_LAMPLINC,      12.A9.10,       cardinal,   All_Lights
-INSTEON_LAMPLINC,      12.AF.8D,       spare,      All_Lights
+INSTEON_LAMPLINC,      12.AF.8D,       drippy_san, Appliances
 INSTEON_SWITCHLINC,    13.BE.31:01,    bedroom,    All_Lights
 INSTEON_LAMPLINC,      18.69.9A,       living_room,All_Lights
 INSTEON_REMOTELINC,    13.EA.41:01,    remote_A,   buttons
