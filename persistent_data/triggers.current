@@ -15,7 +15,7 @@
 #
 name=Check lights type=NoExpire triggered=1420405200
 time_cron '0 8-16 * * *'
-email_if_not_state($lavalamp, "off", 'rpwoodbu@mybox.org'); email_if_not_state($living_room, "off", 'rpwoodbu@mybox.org'); email_if_not_state($bedroom, "off", 'rpwoodbu@mybox.org');
+email_if_not_state($living_room, "off", 'rpwoodbu@mybox.org'); email_if_not_state($bedroom, "off", 'rpwoodbu@mybox.org');
 
 name=Phantom type=NoExpire triggered=1450833249
 time_cron '10 * * * *'

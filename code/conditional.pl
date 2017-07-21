@@ -8,7 +8,7 @@
 my @devices = (
   $living_room,
   $bedroom,
-  $lavalamp
+  #$lavalamp
 );
 
 # set_device - The device to set.
